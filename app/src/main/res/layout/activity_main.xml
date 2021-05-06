@@ -9,10 +9,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvsec"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/White"
-        android:text="47"
+        android:text=""
         android:textColor="@color/Black"
         android:textSize="30sp"
         android:textAlignment="viewEnd"
@@ -23,10 +24,11 @@
     </TextView>
 
     <TextView
+        android:id="@+id/tvmain"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:background="@color/White"
-        android:text="47"
+        android:text=""
         android:textColor="@color/Black"
         android:textSize="50sp"
         android:textAlignment="viewEnd"
