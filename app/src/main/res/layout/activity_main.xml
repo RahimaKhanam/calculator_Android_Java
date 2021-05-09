@@ -80,8 +80,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"></Button>
                     <Button
-                        android:id="@+id/bb1"
-                        android:text="("
+                        android:id="@+id/binv"
+                        android:text="1/x"
+                        android:textAllCaps="false"
                         android:textSize="30sp"
                         android:textColor="@color/textBlue"
                         android:background="@drawable/button_bg_lightblue"
@@ -89,8 +90,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"></Button>
                     <Button
-                        android:id="@+id/bb2"
-                        android:text=")"
+                        android:id="@+id/bln"
+                        android:text="ln"
+                        android:textAllCaps="false"
                         android:textSize="30sp"
                         android:textColor="@color/textBlue"
                         android:background="@drawable/button_bg_lightblue"
@@ -108,7 +110,7 @@
 
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:weightSum="5"
+                    android:weightSum="4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
@@ -151,16 +153,7 @@
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"></Button>
-                    <Button
-                        android:id="@+id/bln"
-                        android:text="ln"
-                        android:textAllCaps="false"
-                        android:textSize="30sp"
-                        android:textColor="@color/textBlue"
-                        android:background="@drawable/button_bg_lightblue"
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"></Button>
+
 
                 </LinearLayout>
             </LinearLayout>
@@ -172,7 +165,7 @@
 
                 <LinearLayout
                     android:orientation="horizontal"
-                    android:weightSum="5"
+                    android:weightSum="4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <Button
@@ -205,16 +198,7 @@
                         android:layout_weight="1"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"></Button>
-                    <Button
-                        android:id="@+id/binv"
-                        android:text="1/x"
-                        android:textAllCaps="false"
-                        android:textSize="30sp"
-                        android:textColor="@color/textBlue"
-                        android:background="@drawable/button_bg_lightblue"
-                        android:layout_weight="1"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"></Button>
+
                     <Button
                         android:id="@+id/bdiv"
                         android:text="÷"

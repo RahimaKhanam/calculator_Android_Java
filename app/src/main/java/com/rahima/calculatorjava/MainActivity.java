@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b0, bdot, bpi, bequal, bplus, bmin, bmul, bdiv, binv, bsqrt, bsquare, bfact, bln, blog, btan, bcos, bsin, bb1, bb2, bc, bac;
+    Button b1, b2, b3, b4, b5, b6, b7, b8, b9, b0, bdot, bpi, bequal, bplus, bmin, bmul, bdiv, binv, bsqrt, bsquare, bfact, bln, blog, btan, bcos, bsin, bc, bac;
     TextView tvsec, tvmain;
     String pi = "3.14159265";
 
@@ -44,8 +44,6 @@ public class MainActivity extends AppCompatActivity {
         btan = findViewById(R.id.btan);
         bcos = findViewById(R.id.bcos);
         bsin = findViewById(R.id.bsin);
-        bb1 = findViewById(R.id.bb1);
-        bb2 = findViewById(R.id.bb2);
         bc = findViewById(R.id.bc);
         bac = findViewById(R.id.bac);
 
@@ -181,20 +179,6 @@ public class MainActivity extends AppCompatActivity {
                 String val = tvmain.getText().toString();
                 double r = Math.sqrt(Double.parseDouble(val));
                 tvmain.setText(String.valueOf(r));
-            }
-        });
-
-        bb1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                tvmain.setText(tvmain.getText()+"(");
-            }
-        });
-
-        bb2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                tvmain.setText(tvmain.getText()+")");
             }
         });
 
