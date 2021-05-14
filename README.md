@@ -1,6 +1,6 @@
 # calculator_Android_Java
 
-Building a Scientific Calculator is a great project to train our logical thinking and programming skills. Adding or subtracting two numbers in code is pretty simple, but making the app actually behave like a conventional calculator can be challenging, like, for example adding entered digits to the end of the line, and showing the last result after executing a math operation, can be a bit tricky. But tricky is good because it gives us a chance to learn.
+Building a Scientific Calculator is a great project to train our logical thinking and programming skills. Adding or subtracting two numbers in a code can be considered a simple task, but making the app actually behave like a conventional calculator can be challenging, like, for example adding entered digits to the end of the line, and showing the last result after executing a math operation, can be a bit tricky. But tricky is good because it gives us a chance to learn.
 
 ### App UI:
 
